@@ -3,7 +3,7 @@ scripts, diagrams or other documentation
 
 The files in this repository were used to configure the network depicted below.
 
-*******************diagram
+![ELK network diagram](https://user-images.githubusercontent.com/78185118/119436583-07894700-bce2-11eb-9584-2cf6fa5aad87.png)
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the PLAYBOOK file may be used to install only certain pieces of it, such as Filebeat.
 
@@ -79,7 +79,7 @@ pip module, docker
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-*******************
+![docker_ps_output](https://user-images.githubusercontent.com/78185118/119436632-238ce880-bce2-11eb-81d4-ee42bc1b3299.png)
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
