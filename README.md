@@ -2,13 +2,14 @@
 
 The files in this repository were used to configure the network depicted below.
 
-![ELK network diagram](https://user-images.githubusercontent.com/78185118/119436583-07894700-bce2-11eb-9584-2cf6fa5aad87.png)
+![network diagram](https://user-images.githubusercontent.com/78185118/133347933-3f9898c7-30fc-43e2-ab78-d4f1d58eabd5.png)
+
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the PLAYBOOK file may be used to install only certain pieces of it, such as Filebeat.
 
 
 [install-elk.txt](https://github.com/patrickt999/Cybersecurity/files/6581426/install-elk.txt)
-
+(elk_install.yml file)
 
 This document contains the following details:
 - Description of the Topology
@@ -27,7 +28,7 @@ Load balancing ensures that the application will be highly AVAILABLE, in additio
 - _What aspect of security do load balancers protect?_<br/>
 network infrastructure, application server availability<br/>
 * _What is the advantage of a jump box?_<br/>
-you can configure your jump box tp run lightweight Docker containers that can be used to distribute software, versus having to install software directly on a host machine
+you can configure your jump box to run lightweight Docker containers that can be used to distribute software, versus having to install software directly on a host machine
 
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the LOGS and SYSTEM TRAFFIC.
 - _What does Filebeat watch for?_<br/>
