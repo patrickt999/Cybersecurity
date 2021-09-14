@@ -1,5 +1,4 @@
 ## Automated ELK Stack Deployment
-scripts, diagrams or other documentation
 
 The files in this repository were used to configure the network depicted below.
 
