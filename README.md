@@ -47,6 +47,7 @@ The machines on the internal network are not exposed to the public Internet.
 
 Only the JUMP BOX machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
 + 52.146.40.59 \
+
 Machines within the network can only be accessed by JUMP BOX. \
 Allowed access to the ELK VM through a Jump Box. ELKs public IP address is dynamic and its private IP is 10.1.0.4
 
