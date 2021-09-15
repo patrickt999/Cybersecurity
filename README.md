@@ -60,7 +60,7 @@ A summary of the access policies in place can be found in the table below.
 | ELK      |   Yes    -   5601    |  *                   |
 
 
-### Elk Configuration
+### ELK Configuration
 
 Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because automating the configuation with Ansible allows playbooks to be installed on multiple servers on a network with no manual configuration necessary.
 
@@ -85,10 +85,9 @@ We have installed the following Beats on these machines:
 - Metricbeat
 
 These Beats allow us to collect the following information from each machine:<br/>
-kinds of data each beat collects and 1 example of what you expect to see:
-* Filebeat: collects logs from clouds, containers, hosts like syslogs
+* Filebeat: logs from clouds, containers, hosts like syslogs
 
-* Metricbeat: collects machine metrics from systems and services like CPU usage or inbound/outbound traffic
+* Metricbeat: machine metrics from systems and services like CPU usage or inbound/outbound traffic
 
 ### Using the Playbook
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
