@@ -9,7 +9,7 @@ These files have been tested and used to generate a live ELK deployment on Azure
 
 
 [install-elk.txt](https://github.com/patrickt999/Cybersecurity/files/6581426/install-elk.txt)
-(install-elk.yml file not supported, change file extension from .txt to .yml to execute)
+(install-elk.yml file not supported, change file extension from .txt to .yml to run playbook)
 
 This document contains the following details:
 - Description of the Topology
