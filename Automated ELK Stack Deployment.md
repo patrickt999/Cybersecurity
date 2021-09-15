@@ -24,13 +24,14 @@ This document contains the following details:
 
 The main purpose of this network is to expose a load-balanced and monitored instance of DVWA, the Damn Vulnerable Web Application.
 
-Load balancing ensures that the application will be highly AVAILABLE, in addition to restricting REQUESTS to the network. \
-The aspects of security that load balancers protect are network infrastructure and application server availability. \
+Load balancing ensures that the application will be highly AVAILABLE, in addition to restricting REQUESTS to the network.
++ The aspects of security that load balancers protect are network infrastructure and application server availability.
+
 The advantage of a jump box is that you can configure your jump box to run lightweight Docker containers that can be used to distribute software, versus having employees install software directly on a host machine.
 
-Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the LOGS and SYSTEM TRAFFIC. \
-Filebeat watches for log files, changes to the file system. \
-Metricbeat records aspects of a system that tell analysts about machine health.
+Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the LOGS and SYSTEM TRAFFIC.
++ Filebeat watches for log files, changes to the file system.
++ Metricbeat records aspects of a system that tell analysts about machine health.
 
 The configuration details of each machine may be found below.
 
@@ -63,7 +64,7 @@ A summary of the access policies in place can be found in the table below.
 
 ### ELK Configuration
 
-Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because automating the configuation with Ansible allows playbooks to be installed on multiple servers on a network with no manual configuration necessary.
+Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because automating the configuation with Ansible allows playbooks to be installed quickly on multiple servers on a network.
 
 The playbook implements the following tasks:
 - install services: apt module, docker.io and python3-pip
